@@ -1,0 +1,133 @@
+.postdownload.postdownload--ftdep {
+    background: rgba(24, 24, 24, 0.8);
+    height: auto;
+    min-height: 100%;
+    text-align: left;
+}
+
+.postdownload--ftdep .postdownload__close {
+    z-index: 1;
+}
+
+.postdownload--ftdep .postdownload__top {
+    background-color: rgba(24, 24, 24, 0.7);
+    margin-bottom: 30px;
+    min-height: 100px;
+}
+
+.postdownload--ftdep .postdownload-top__thumb {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60px;
+    width: 60px;
+}
+
+.postdownload--ftdep .postdownload-top__title {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.postdownload--ftdep .postdownload-top__status {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.postdownload--ftdep .postdownload__content {
+    top: unset;
+    transform: none;
+}
+
+.postdownload--ftdep .postdownload__title {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.postdownload--ftdep .postdownload__content p {
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+
+.postdownload--ftdep .postdownload__actions {
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+
+.postdownload--ftdep .postdownload__actions .btn--big {
+    width: 100%;
+}
+
+.postdownload--ftdep .postdownload__actions .btn--big.btn--white-inv {
+    font-size: 14px;
+}
+
+.postdownload--ftdep .postdownload__hurry {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.postdownload--ftdep .postdownload__disclaimer {
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 767px) {
+    .postdownload--ftdep .postdownload-top {
+        padding-bottom: 20px;
+        padding-top: 20px;
+        text-align: center;
+    }
+
+    .postdownload--ftdep .postdownload-top__thumb {
+        margin: 0 auto 10px;
+    }
+
+    .postdownload--ftdep .postdownload__content {
+        padding: 0;
+        text-align: center;
+    }
+
+    .postdownload--ftdep .postdownload__actions .btn--big.btn--white-inv {
+        line-height: 1.3;
+        margin-bottom: 10px;
+        padding: 5px 0;
+    }
+}
+
+@media (min-width: 768px) {
+    .postdownload--ftdep .postdownload__top {
+        padding: 25px 0 20px 100px;
+        position: relative;
+    }
+
+    .postdownload--ftdep .postdownload-top__thumb {
+        position: absolute;
+        left: 20px;
+        top: 20px;
+    }
+
+    .postdownload--ftdep .postdownload__actions .btn--big.btn--white-inv {
+        line-height: 38px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+    .postdownload--ftdep .postdownload__actions .btn--big.btn--white-inv {
+        line-height: 1.3;
+        padding: 6px 30px;
+    }
+
+    .postdownload--ftdep .postdownload__actions .btn--big.btn--pink {
+        font-size: 20px;
+        height: 50px;
+        line-height: 50px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .postdownload--ftdep .postdownload__actions .btn--big.btn--white-inv br {
+        display: none;
+    }
+}
